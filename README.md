@@ -1,4 +1,4 @@
-# 👨‍💻 Annas Sharif - Professional Portfolio
+# 👨‍💻 Annas Sharif - Portfolio
 
 > A modern, responsive portfolio website showcasing my work in software development, data science, and AI. Built with React, Vite, and modern web technologies.
 
