@@ -183,7 +183,6 @@ This project is open source and available under the MIT License. See the [LICENS
 - **Email:** [sharifannas92@gmail.com](mailto:sharifannas92@gmail.com)
 - **GitHub:** [@AnnasSharif](https://github.com/AnnasSharif)
 - **LinkedIn:** [Connect on LinkedIn](https://linkedin.com)
-- **Twitter:** [@AnnasSharif](https://twitter.com)
 
 ---
 
