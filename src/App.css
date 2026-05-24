@@ -1,0 +1,31 @@
+/* App-level styles */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app > main {
+  flex: 1;
+}
+
+/* Section alternating backgrounds */
+.about {
+  background: var(--bg-secondary);
+}
+
+.skills {
+  background: var(--bg-primary);
+}
+
+.projects {
+  background: var(--bg-secondary);
+}
+
+.education {
+  background: var(--bg-primary);
+}
+
+.contact {
+  background: var(--bg-secondary);
+}
