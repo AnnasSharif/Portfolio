@@ -2,7 +2,7 @@
 
 > A modern, responsive portfolio website showcasing my work in software development, data science, and AI. Built with React, Vite, and modern web technologies.
 
-**Live Portfolio:** [Portfolio Link](https://github.com/AnnasSharif/Portfolio)  
+**Live Portfolio:** [Portfolio Link](https://my-portfolioas.netlify.app/)  
 **GitHub Profile:** [@AnnasSharif](https://github.com/AnnasSharif)
 
 ---
