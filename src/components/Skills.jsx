@@ -2,10 +2,10 @@ import { useEffect, useRef } from 'react';
 import './Skills.css';
 
 const skills = [
-  { name: 'Python', level: 60, color: '#3776AB' },
+  { name: 'Python', level: 70, color: '#3776AB' },
   { name: 'SQL Database', level: 80, color: '#336791' },
   { name: 'HTML5, CSS3, JS', level: 80, color: '#E44D26' },
-  { name: 'React JS', level: 60, color: '#61DAFB' },
+  { name: 'React JS', level: 70, color: '#61DAFB' },
   { name: 'DSA & OOP', level: 80, color: '#8B5CF6' },
 ];
 
