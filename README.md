@@ -1,8 +1,8 @@
-# 👨‍💻 Annas Sharif - Portfolio
+# 👨‍💻 Annas Sharif - Professional Portfolio
 
 > A modern, responsive portfolio website showcasing my work in software development, data science, and AI. Built with React, Vite, and modern web technologies.
 
-**Live Portfolio:** [Portfolio Link](https://my-portfolioas.netlify.app/)  
+**Live Portfolio:** [Portfolio Link](https://github.com/AnnasSharif/Portfolio)  
 **GitHub Profile:** [@AnnasSharif](https://github.com/AnnasSharif)
 
 ---
@@ -183,6 +183,7 @@ This project is open source and available under the MIT License. See the [LICENS
 - **Email:** [sharifannas92@gmail.com](mailto:sharifannas92@gmail.com)
 - **GitHub:** [@AnnasSharif](https://github.com/AnnasSharif)
 - **LinkedIn:** [Connect on LinkedIn](https://linkedin.com)
+- **Twitter:** [@AnnasSharif](https://twitter.com)
 
 ---
 

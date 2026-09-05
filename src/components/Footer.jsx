@@ -37,7 +37,7 @@ export default function Footer() {
               <a href="https://github.com/AnnasSharif" target="_blank" rel="noopener noreferrer" className="footer__social-link" aria-label="GitHub">
                 <FiGithub />
               </a>
-              <a href="mailto:sharifannas92@gmail.com" className="footer__social-link" aria-label="Email">
+              <a href="mailto:annassharif.dev@gmail.com" className="footer__social-link" aria-label="Email">
                 <FiMail />
               </a>
               <a href="tel:+923176942548" className="footer__social-link" aria-label="Phone">

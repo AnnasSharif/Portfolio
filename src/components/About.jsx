@@ -78,7 +78,7 @@ export default function About() {
                 </div>
                 <div className="about__info-item">
                   <span className="about__info-label">Email</span>
-                  <span className="about__info-value">sharifannas92@gmail.com</span>
+                  <span className="about__info-value">annassharif.dev@gmail.com</span>
                 </div>
               </div>
             </div>

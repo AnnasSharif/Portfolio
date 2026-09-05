@@ -39,6 +39,18 @@ const projects = [
     github: 'https://github.com/AnnasSharif',
     color: '#22C55E',
   },
+  {
+    id: 4,
+    title: 'Holy Grain',
+    year: '2025',
+    category: 'Web Development',
+    description:
+      'A premium sourdough bakery website built for Holy Grain, Manchester. Features smooth scroll animations powered by GSAP and Lenis, stunning motion transitions with Framer Motion, and a luxurious dark-themed design with warm amber accents.',
+    tools: ['React', 'TypeScript', 'Tailwind CSS', 'GSAP', 'Framer Motion'],
+    image: '/images/holygrain.jpg',
+    github: 'https://github.com/AnnasSharif/Holy-Grain',
+    color: '#D4A574',
+  },
 ];
 
 export default function Projects() {

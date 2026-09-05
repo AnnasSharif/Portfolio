@@ -84,7 +84,7 @@ export default function Hero() {
               <FiGithub />
               GitHub
             </a>
-            <a href="mailto:sharifannas92@gmail.com" className="btn btn-outline">
+            <a href="mailto:annassharif.dev@gmail.com" className="btn btn-outline">
               <FiMail />
               Email Me
             </a>

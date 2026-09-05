@@ -3,7 +3,7 @@ import { FiMail, FiPhone, FiMapPin, FiGithub, FiSend, FiCheck } from 'react-icon
 import './Contact.css';
 
 const contactInfo = [
-  { icon: <FiMail />, label: 'Email', value: 'sharifannas92@gmail.com', href: 'mailto:sharifannas92@gmail.com' },
+  { icon: <FiMail />, label: 'Email', value: 'annassharif.dev@gmail.com', href: 'mailto:annassharif.dev@gmail.com' },
   { icon: <FiPhone />, label: 'Phone', value: '+92-317-6942548', href: 'tel:+923176942548' },
   { icon: <FiMapPin />, label: 'Location', value: 'Bahria Town, Lahore, Pakistan', href: '#' },
   { icon: <FiGithub />, label: 'GitHub', value: 'github.com/AnnasSharif', href: 'https://github.com/AnnasSharif' },
@@ -21,7 +21,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Create mailto link
-    const mailtoLink = `mailto:sharifannas92@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`From: ${formData.name} (${formData.email})\n\n${formData.message}`)}`;
+    const mailtoLink = `mailto:annassharif.dev@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`From: ${formData.name} (${formData.email})\n\n${formData.message}`)}`;
     window.open(mailtoLink);
     setSubmitted(true);
     setTimeout(() => {
