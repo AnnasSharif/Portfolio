@@ -4,8 +4,8 @@ import './Contact.css';
 
 const contactInfo = [
   { icon: <FiMail />, label: 'Email', value: 'annassharif.dev@gmail.com', href: 'mailto:annassharif.dev@gmail.com' },
-  { icon: <FiPhone />, label: 'Phone', value: '+92-317-6942548', href: 'tel:+923176942548' },
-  { icon: <FiMapPin />, label: 'Location', value: 'Bahria Town, Lahore, Pakistan', href: '#' },
+  { icon: <FiPhone />, label: 'Phone / WhatsApp', value: '+92-317-6942548', href: 'https://wa.me/923176942548' },
+  { icon: <FiMapPin />, label: 'Availability', value: 'Remote Worldwide (Flexible Time Zones)', href: '#' },
   { icon: <FiGithub />, label: 'GitHub', value: 'github.com/AnnasSharif', href: 'https://github.com/AnnasSharif' },
 ];
 
@@ -37,16 +37,16 @@ export default function Contact() {
           <span className="section-label">// Get In Touch</span>
           <h2 className="section-title">Let's Work Together</h2>
           <p className="section-subtitle">
-            Have a project in mind or want to collaborate? Feel free to reach out — I'd love to hear from you!
+            Looking for a dedicated developer to build your next web app or AI solution? Let's discuss your goals.
           </p>
         </div>
 
         <div className="contact__content">
           {/* Contact Info Cards */}
           <div className="contact__info">
-            <h3 className="contact__info-title">Contact Information</h3>
+            <h3 className="contact__info-title">Contact & Availability</h3>
             <p className="contact__info-text">
-              I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+              Available for freelance projects, contract engagements, and remote full-time opportunities. Fast turnaround and transparent communication guaranteed.
             </p>
 
             <div className="contact__info-list">

@@ -3,11 +3,12 @@ import { FiGithub, FiMail, FiArrowDown } from 'react-icons/fi';
 import './Hero.css';
 
 const roles = [
-  'Junior Software Developer',
-  'Python Developer',
-  'React Enthusiast',
+  'Full Stack Developer',
+  'Python & Django Developer',
+  'React.js Engineer',
+  'Machine Learning Enthusiast',
+  'AI Solutions Builder',
   'Data Science Student',
-  'AI Builder',
 ];
 
 export default function Hero() {
@@ -51,7 +52,7 @@ export default function Hero() {
         <div className="hero__content">
           <div className="hero__badge animate-fade-up">
             <span className="hero__badge-dot" />
-            Available for opportunities
+            Open to Global Opportunities
           </div>
 
           <h1 className="hero__title animate-fade-up" style={{ animationDelay: '0.1s' }}>
@@ -65,8 +66,9 @@ export default function Hero() {
           </div>
 
           <p className="hero__description animate-fade-up" style={{ animationDelay: '0.3s' }}>
-            Hardworking and passionate about software development. Strong self-learner eager to
-            build intelligent applications and grow as a developer. Currently pursuing BS Data Science
+            Passionate software developer specializing in Python, Django, React, and AI-powered
+            applications. I transform complex ideas into elegant, scalable solutions — from
+            intelligent chatbots to full-stack web platforms. Currently pursuing BS Data Science
             at University of the Punjab.
           </p>
 
@@ -84,26 +86,26 @@ export default function Hero() {
               <FiGithub />
               GitHub
             </a>
-            <a href="mailto:annassharif.dev@gmail.com" className="btn btn-outline">
+            <a href="#contact" className="btn btn-outline">
               <FiMail />
-              Email Me
+              Hire Me
             </a>
           </div>
 
           <div className="hero__stats animate-fade-up" style={{ animationDelay: '0.5s' }}>
             <div className="hero__stat">
-              <span className="hero__stat-number">3+</span>
-              <span className="hero__stat-label">Projects Built</span>
+              <span className="hero__stat-number">4+</span>
+              <span className="hero__stat-label">Projects Delivered</span>
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
-              <span className="hero__stat-number">5+</span>
+              <span className="hero__stat-number">10+</span>
               <span className="hero__stat-label">Technologies</span>
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
               <span className="hero__stat-number">AI</span>
-              <span className="hero__stat-label">Focused</span>
+              <span className="hero__stat-label">& Full Stack</span>
             </div>
           </div>
         </div>

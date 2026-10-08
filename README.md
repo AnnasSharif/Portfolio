@@ -1,243 +1,230 @@
-# 👨‍💻 Annas Sharif - Professional Portfolio
+<div align="center">
 
-> A modern, responsive portfolio website showcasing my work in software development, data science, and AI. Built with React, Vite, and modern web technologies.
+# ✨ Annas Sharif — Developer Portfolio
 
-**Live Portfolio:** [Portfolio Link](https://github.com/AnnasSharif/Portfolio)  
-**GitHub Profile:** [@AnnasSharif](https://github.com/AnnasSharif)
+A modern, responsive personal portfolio website built with **React** and **Vite**, featuring stunning glassmorphism design, smooth animations, and a dark-themed UI with vibrant gradient accents.
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-8B5CF6?style=for-the-badge&logoColor=white)](https://annassharif.github.io/Portfolio/)
+[![GitHub](https://img.shields.io/badge/GitHub-AnnasSharif-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AnnasSharif)
+[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
+
+<br />
+
+**🔗 Live Website: [https://annassharif.github.io/Portfolio/](https://annassharif.github.io/Portfolio/)**
+
+</div>
 
 ---
 
-## ✨ Features
+## 📸 Preview
 
-- 🎨 **Modern Design** - Glassmorphism UI with smooth animations
-- 🌓 **Dark/Light Mode** - Theme toggle for comfortable viewing
-- 📱 **Fully Responsive** - Optimized for mobile, tablet, and desktop
-- ⚡ **Fast Performance** - Built with Vite for instant load times
-- 🎯 **Interactive Sections** - Smooth scrolling and animations
-- 📧 **Contact Form** - Direct messaging with email notification
-- 🔍 **SEO Optimized** - Meta tags and proper structure
+<div align="center">
+
+| Hero Section | Projects Showcase |
+|:---:|:---:|
+| Animated typewriter effect with floating orbs | Interactive slider with auto-rotation |
+
+| About & Skills | Contact Form |
+|:---:|:---:|
+| Glassmorphism cards with scroll animations | Functional email form with mailto integration |
+
+</div>
+
+---
+
+## 🚀 Features
+
+- **🎨 Glassmorphism UI** — Frosted glass cards with backdrop blur and subtle borders
+- **⌨️ Typewriter Animation** — Dynamic role cycling with realistic typing/deleting effect
+- **🌀 Animated Background** — Floating gradient orbs and grid overlays for visual depth
+- **📱 Fully Responsive** — Optimized for mobile, tablet, and desktop viewports
+- **🎯 Smooth Scrolling** — Section-based navigation with active link highlighting
+- **🖼️ Project Showcase** — Interactive slider with auto-rotation, dot navigation, and grid cards
+- **📩 Contact Form** — Functional form with mailto integration and success feedback
+- **🔤 Custom Typography** — Google Fonts (Inter, Outfit, JetBrains Mono) for a premium feel
+- **⚡ Fast Performance** — Powered by Vite for instant HMR and optimized builds
+- **🌙 Dark Theme** — Sleek dark color scheme with vibrant purple/cyan accent gradients
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend:**
-- React 19
-- Vite 8
-- CSS3 with Custom Properties
-- React Icons
-
-**Tools & Services:**
-- GitHub (Version Control)
-- Vercel (Deployment)
-- ESLint (Code Quality)
+| Category | Technologies |
+|:---|:---|
+| **Framework** | React 19 |
+| **Build Tool** | Vite 8 |
+| **Routing** | React Router DOM v7 |
+| **Icons** | React Icons (Feather) |
+| **Fonts** | Inter · Outfit · JetBrains Mono |
+| **Email** | EmailJS |
+| **Deployment** | GitHub Pages (`gh-pages`) |
+| **Styling** | Vanilla CSS with custom properties |
 
 ---
 
 ## 📂 Project Structure
 
 ```
-portfolio/
-├── src/
-│   ├── components/        # React components (Hero, About, Skills, etc.)
-│   ├── context/          # Theme context for dark/light mode
-│   ├── App.jsx          # Main app component
-│   ├── main.jsx         # Entry point
-│   └── index.css        # Global styles
+Portfolio/
 ├── public/
-│   └── images/          # Project screenshots and profile image
-├── index.html           # HTML entry point
-├── vite.config.js       # Vite configuration
-└── package.json         # Dependencies
+│   ├── images/              # Project screenshots & profile photo
+│   ├── favicon.svg          # Site favicon
+│   └── icons.svg            # SVG icon sprites
+├── src/
+│   ├── assets/              # Static assets
+│   ├── components/
+│   │   ├── Navbar.jsx       # Responsive navigation bar
+│   │   ├── Navbar.css
+│   │   ├── Hero.jsx         # Hero section with typewriter effect
+│   │   ├── Hero.css
+│   │   ├── About.jsx        # About me with highlight cards
+│   │   ├── About.css
+│   │   ├── Skills.jsx       # Technical skills showcase
+│   │   ├── Skills.css
+│   │   ├── Projects.jsx     # Featured projects slider
+│   │   ├── Projects.css
+│   │   ├── Education.jsx    # Education timeline
+│   │   ├── Education.css
+│   │   ├── Contact.jsx      # Contact form & info
+│   │   ├── Contact.css
+│   │   ├── Footer.jsx       # Site footer
+│   │   └── Footer.css
+│   ├── context/             # React context providers
+│   ├── App.jsx              # Root application component
+│   ├── App.css              # App-level styles
+│   ├── index.css            # Global styles & design tokens
+│   └── main.jsx             # Application entry point
+├── index.html               # HTML template with SEO meta tags
+├── vite.config.js           # Vite configuration
+├── package.json             # Dependencies & scripts
+└── README.md
 ```
 
 ---
 
 ## 🚀 Featured Projects
 
-### 1. **DocInsight AI** - RAG-Based Chatbot
-- Upload PDF documents and ask questions about their content
-- Uses Retrieval-Augmented Generation (RAG) with LLMs
+### 1. **DocInsight AI** - RAG-Based Intelligent Chatbot
+- Upload PDF documents and ask questions directly related to their contents
+- Uses Retrieval-Augmented Generation (RAG) with high-speed LLMs
 - **Tech:** Python, Gradio, Groq API, PyPDF2
 - **GitHub:** [View Project](https://github.com/AnnasSharif)
 
-### 2. **ConceptBridge AI** - Educational Chatbot
-- AI tutor for understanding DSA, OOP, and AI concepts
-- Adjustable explanation depth with step-by-step guidance
+### 2. **ConceptBridge AI** - Educational AI Mentor
+- AI tutor for mastering DSA, OOP, and AI concepts step-by-step
+- Adjustable explanation depth, automated logging, and context-aware guidance
 - **Tech:** Python, Gradio, Groq API, Llama 3
 - **GitHub:** [View Project](https://github.com/AnnasSharif)
 
-### 3. **Air Quality Analysis** - Data Science Project
-- Multi-variable environmental dataset analysis
-- Interactive visualizations and predictive insights
-- **Tech:** Python, Pandas, Data Visualization
+### 3. **Air Quality Analysis** - Data Science & Environmental Modeling
+- Multi-variable environmental dataset analysis and predictive insights
+- Automated data cleaning, transformation, and interactive visualizations
+- **Tech:** Python, Pandas, Data Visualization, Analytics
 - **GitHub:** [View Project](https://github.com/AnnasSharif)
+
+### 4. **Holy Grain** - Premium Bakery Web Platform
+- High-end web experience designed for Holy Grain Manchester
+- Smooth scrolling via Lenis & GSAP, fluid transitions with Framer Motion
+- **Tech:** React, TypeScript, Tailwind CSS, GSAP, Framer Motion
+- **GitHub:** [View Project](https://github.com/AnnasSharif/Holy-Grain)
 
 ---
 
-## 📚 Skills
+## 📚 Technical Competencies
 
-**Languages:** Python, JavaScript, HTML5, CSS3, SQL  
-**Frontend:** React, Vite, CSS-in-JS  
-**Data Science:** Pandas, Data Analysis, Visualization  
-**AI/ML:** LLMs, RAG, Groq API  
-**Tools:** Git, GitHub, VS Code, ESLint
+- **Backend & Languages:** Python, Django, Django REST Framework, JavaScript, TypeScript, SQL
+- **AI & Machine Learning:** Machine Learning (Scikit-learn, NumPy), RAG Architecture, LLM Integrations (Groq, LLaMA), Pandas
+- **Systems & Core CS:** Operating Systems (Process Scheduling, Memory Management, Concurrency), DSA, OOP, Linux / Shell
+- **Frontend Engineering:** React 19, Vite, HTML5, CSS3, Tailwind CSS, GSAP, Framer Motion
+- **DevOps & Tools:** Git, GitHub, VS Code, REST APIs, CI/CD with GitHub Pages
 
 ---
 
 ## 🎯 Quick Start
 
 ### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
+
+- **Node.js** ≥ 18.x
+- **npm** ≥ 9.x
 
 ### Installation
 
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone https://github.com/AnnasSharif/Portfolio.git
+
+# 2. Navigate to the project directory
 cd Portfolio
 
-# Install dependencies
+# 3. Install dependencies
 npm install
 
-# Start development server
+# 4. Start the development server
 npm run dev
 ```
 
-The site will be available at `http://localhost:5173`
+The app will be running at **http://localhost:5173** 🎉
 
-### Build for Production
+### Available Scripts
+
+| Command | Description |
+|:---|:---|
+| `npm run dev` | Start development server with HMR |
+| `npm run build` | Build optimized production bundle |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | Run ESLint code analysis |
+| `npm run deploy` | Build & deploy to GitHub Pages |
+
+---
+
+## 🚀 Deployment
+
+This project is deployed to **GitHub Pages** using the `gh-pages` package.
 
 ```bash
-npm run build
-```
-
-The optimized build will be in the `dist` folder.
-
----
-
-## 📧 Contact Form
-
-The contact form allows visitors to reach out directly:
-- **Email:** sharifannas92@gmail.com
-- **Phone:** +92-317-6942548
-- **Location:** Bahria Town, Lahore, Pakistan
-
-When someone fills out the contact form, it opens their default email client with the message pre-filled. They can review and send from there.
-
-### Future Enhancement
-To enable automatic email delivery without opening the email client, consider integrating:
-- [Web3Forms](https://web3forms.com/) - Free email service
-- [EmailJS](https://www.emailjs.com/) - Simple email API
-- [Formspree](https://formspree.io/) - Form backend
-
----
-
-## 🌐 Deployment
-
-This portfolio is deployed on **Vercel** with automatic CI/CD:
-
-1. **Repository:** [AnnasSharif/Portfolio](https://github.com/AnnasSharif/Portfolio)
-2. **Deployed:** [Live Site](https://github.com/AnnasSharif/Portfolio)
-3. **Auto-Deploy:** On every push to the `main` branch
-
-### To Deploy Your Own Version
-
-1. Fork this repository
-2. Create a new project on [Vercel](https://vercel.com)
-3. Connect your GitHub repository
-4. Vercel will automatically build and deploy on every push
-
----
-
-## 🎓 About Me
-
-I'm a **Junior Software Developer** passionate about building intelligent applications. Currently pursuing a **BS in Data Science** at the University of the Punjab.
-
-**Expertise:**
-- Web development with React and modern JavaScript
-- Data analysis with Python and Pandas
-- AI/ML applications with LLMs
-- Full-stack development
-
-**Currently Learning:** Advanced AI architectures, system design, and cloud deployment
-
----
-
-## 📊 GitHub Stats
-
-![GitHub followers](https://img.shields.io/github/followers/AnnasSharif?style=social)  
-[![GitHub](https://img.shields.io/badge/GitHub-AnnasSharif-black?logo=github)](https://github.com/AnnasSharif)
-
----
-
-## 📄 License
-
-This project is open source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
----
-
-## 🔗 Connect With Me
-
-- **Email:** [sharifannas92@gmail.com](mailto:sharifannas92@gmail.com)
-- **GitHub:** [@AnnasSharif](https://github.com/AnnasSharif)
-- **LinkedIn:** [Connect on LinkedIn](https://linkedin.com)
-- **Twitter:** [@AnnasSharif](https://twitter.com)
-
----
-
-## 💡 Tips for Your Own Portfolio
-
-1. **Customize Content** - Update the projects, skills, and information to match your background
-2. **Add Your Logo** - Replace the favicon in the `public` folder
-3. **Update Links** - Change social media and project links to your own
-4. **Optimize Images** - Compress project screenshots for faster loading
-5. **SEO** - Update meta tags in `index.html` with your information
-
----
-
-**Last Updated:** May 2026  
-**Built with ❤️ by [Annas Sharif](https://github.com/AnnasSharif)**
-git remote add origin https://github.com/AnnasSharif/YOUR_REPO_NAME.git
-git push -u origin main
-```
-*(Make sure to replace `YOUR_REPO_NAME` with your actual repository name)*
-
-### Step 3: Update Vite Config
-Open `vite.config.js` in your project and add the `base` property matching your repository name. 
-For example, if your repo is named `portfolio`, change it to:
-```javascript
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-export default defineConfig({
-  plugins: [react()],
-  base: '/portfolio/', // Add this line! Must start and end with a slash.
-})
-```
-
-### Step 4: Deploy!
-Run the following command in your terminal:
-```bash
+# Deploy to GitHub Pages
 npm run deploy
 ```
-This command will automatically build your project and push it to the `gh-pages` branch. 
 
-### Step 5: Configure GitHub Settings
-1. Go to your GitHub repository in the browser.
-2. Click on **Settings** > **Pages** (on the left sidebar).
-3. Under "Source", select **Deploy from a branch**.
-4. Under "Branch", select **gh-pages** and click **Save**.
-5. Wait a minute or two, and your portfolio will be live at `https://AnnasSharif.github.io/YOUR_REPO_NAME/`!
+This runs `vite build` and publishes the `dist/` folder to the `gh-pages` branch automatically.
 
-## 🛠️ Built With
-
-* **React 19**
-* **Vite**
-* **Vanilla CSS** (Custom Design System)
-* **React Icons**
-* **React Router Dom**
+**Live URL:** [https://annassharif.github.io/Portfolio/](https://annassharif.github.io/Portfolio/)
 
 ---
-*Built by Annas Sharif*
+
+## 🎨 Sections Overview
+
+| Section | Description |
+|:---|:---|
+| **Hero** | Introduction with typewriter animation, profile image, animated orbs, and quick stats |
+| **About** | Personal background, education details, and four highlight cards (Web Dev, Data Science, AI/ML, Learning) |
+| **Skills** | Technical skills categorized with visual proficiency indicators |
+| **Projects** | Interactive showcase slider featuring DocInsight-AI, ConceptBridge AI, Air Quality Analysis, and Holy Grain |
+| **Education** | Academic timeline with institution details |
+| **Contact** | Contact information cards and a functional message form |
+| **Footer** | Quick navigation links, social connections, and copyright |
+
+---
+
+## 📬 Contact
+
+<div align="center">
+
+| Channel | Details |
+|:---:|:---|
+| 📧 **Email** | [annassharif.dev@gmail.com](mailto:annassharif.dev@gmail.com) |
+| 🐙 **GitHub** | [github.com/AnnasSharif](https://github.com/AnnasSharif) |
+| 📍 **Location** | Lahore, Pakistan |
+
+</div>
+
+---
+
+<div align="center">
+
+Made with ❤️ by **Annas Sharif**
+
+© 2025 Annas Sharif. All rights reserved.
+
+</div>

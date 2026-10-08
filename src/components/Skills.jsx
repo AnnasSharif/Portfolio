@@ -2,22 +2,32 @@ import { useEffect, useRef } from 'react';
 import './Skills.css';
 
 const skills = [
-  { name: 'Python', level: 60, color: '#3776AB' },
-  { name: 'SQL Database', level: 80, color: '#336791' },
+  { name: 'Python & Django', level: 80, color: '#3776AB' },
+  { name: 'React JS', level: 70, color: '#61DAFB' },
   { name: 'HTML5, CSS3, JS', level: 80, color: '#E44D26' },
-  { name: 'React JS', level: 60, color: '#61DAFB' },
+  { name: 'SQL Database', level: 75, color: '#336791' },
+  { name: 'Machine Learning', level: 60, color: '#FF6F00' },
   { name: 'DSA & OOP', level: 80, color: '#8B5CF6' },
+  { name: 'Operating Systems', level: 60, color: '#00BFA5' },
 ];
 
 const tools = [
   { name: 'Git & GitHub', icon: '⚙️' },
   { name: 'VS Code', icon: '💻' },
+  { name: 'Django REST', icon: '🌐' },
   { name: 'Gradio', icon: '🎨' },
   { name: 'Groq API', icon: '🤖' },
   { name: 'Pandas', icon: '📊' },
+  { name: 'NumPy', icon: '🔢' },
+  { name: 'Scikit-learn', icon: '🧪' },
   { name: 'PyPDF2', icon: '📄' },
   { name: 'LLM / AI', icon: '🧠' },
   { name: 'REST APIs', icon: '🔗' },
+  { name: 'TypeScript', icon: '📝' },
+  { name: 'GSAP', icon: '✨' },
+  { name: 'Framer Motion', icon: '🎬' },
+  { name: 'Tailwind CSS', icon: '🎯' },
+  { name: 'Linux/Shell', icon: '🐧' },
 ];
 
 export default function Skills() {
@@ -48,13 +58,13 @@ export default function Skills() {
           <span className="section-label">// Skills & Tools</span>
           <h2 className="section-title">My Tech Stack</h2>
           <p className="section-subtitle">
-            Technologies and tools I use to bring ideas to life.
+            A comprehensive toolkit spanning full-stack development, AI/ML, and systems programming — ready to deliver world-class solutions.
           </p>
         </div>
 
         <div className="skills__content">
           <div className="skills__bars glass-card">
-            <h3 className="skills__group-title">Core Skills</h3>
+            <h3 className="skills__group-title">Core Competencies</h3>
             {skills.map((skill, i) => (
               <div className="skills__bar-wrapper" key={skill.name} style={{ animationDelay: `${i * 0.1}s` }}>
                 <div className="skills__bar-header">
